@@ -27,6 +27,9 @@ end
 
 group :development do
   gem 'roodi'
+  gem 'pry'
+  gem 'pry-remote'
+  gem 'pry-nav'
 end
 
 group :production do

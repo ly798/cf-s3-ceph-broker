@@ -41,3 +41,15 @@ Add the broker to Cloud Foundry as described by [the service broker documentatio
 ```
 cf push
 ```
+
+#### start development
+
+```
+zsh --login
+rvm use 2.2.6
+bundle update
+source env.sh
+bundle exec rackup -o 0.0.0.0 -d
+```
+
+add `binding.pry` debug
