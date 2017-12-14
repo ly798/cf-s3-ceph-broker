@@ -3,7 +3,7 @@ source "https://rubygems.org"
 ruby '2.2.6'
 
 gem 'addressable'
-gem 'fog-radosgw', git: 'https://github.com/orange-cloudfoundry/fog-radosgw', branch: 'master'
+gem 'fog-radosgw', git: 'https://github.com/ly798/fog-radosgw', branch: 'support-port'
 gem 'fog'
 gem 'sinatra'
 gem 'mime-types'

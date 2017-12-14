@@ -123,6 +123,7 @@ module RiakCsBroker
         user_id = user_id_from_binding_id(binding_id)
         delete_user_from_bucket_acl(self.class.bucket_name(instance_id), user_id)
         delete_binding_id_to_user_id_mapping(binding_id)
+        # TODO: delete user
       rescue Excon::Errors::Timeout
         raise ServiceUnavailableError
       rescue => e

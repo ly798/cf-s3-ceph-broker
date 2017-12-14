@@ -10,8 +10,8 @@ GIT
 
 GIT
   remote: https://github.com/ly798/fog-radosgw
-  revision: a9fa4ed7f3125d6e98b6407dcd60577240cb9438
-  branch: master
+  revision: 42e2dfc2e907ec3a8ec97bd4791de60c01496570
+  branch: support-port
   specs:
     fog-radosgw (0.0.5)
       fog-core (>= 1.21.0)
