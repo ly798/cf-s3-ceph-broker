@@ -42,7 +42,7 @@ Add the broker to Cloud Foundry as described by [the service broker documentatio
 cf push
 ```
 
-#### start development
+#### Start development
 
 ```
 zsh --login
@@ -53,3 +53,9 @@ bundle exec rackup -o 0.0.0.0 -d
 ```
 
 add `binding.pry` debug
+
+#### Start docker
+
+```
+docker run -d -v ~/env.sh:/cf-s3-ceph-broker/env.sh -p 9292:9292 --name cf-s3-ceph-broker ly798/cf-s3-ceph-broker:latest
+```
